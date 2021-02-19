@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Opal Dent Clinic</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -34,16 +34,16 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="#About">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#section1">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
+              <a class="nav-link" href="#section2">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="#section3">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -60,10 +60,11 @@
               Recusandae architecto, dolores, veniam et possimus dolore
               veritatis
             </p>
-
-            <button type="button" class="btn btn-outline-success btn-lg">
-              About Us
-            </button>
+            <a href="#About">
+              <button type="button" class="btn btn-outline-success btn-lg">
+                About Us
+              </button>
+            </a>
           </div>
           <div class="col-md-5">
             <img
@@ -83,33 +84,110 @@
         ></path>
       </svg>
     </header>
-    <!-- Links Section -->
-    <section class="links">
-      <div class="container text-center">
-        <div class="row g-5">
-          <h1 class="my-3">Social Media Links</h1>
-          <div class="col-md-4">
-            <img
-              src="./images/instagram.png"
-              alt="Companies"
-              class="img-fluid"
-            />
+
+    <!-- Header Section -->
+    <section id="About">
+      <header class="page-header-about">
+        <div class="container pt-3">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-12">
+              <h1 class="text-center">About Us</h1>
+            </div>
+            <div class="col-md-5">
+              <h2>Opal Dent Clinic</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae architecto, dolores, veniam et possimus dolore
+              </p>
+              <p>
+                veritatis Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Recusandae architecto, dolores, veniam et possimus dolore
+                veritatis
+              </p>
+              <p>
+                veritatis Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Recusandae architecto, dolores, veniam et possimus dolore
+                veritatis
+              </p>
+            </div>
+            <div class="col-md-5">
+              <img
+                src="./images/aboutus-header.svg"
+                alt="header image"
+                width="600px"
+                height="450px"
+              />
+            </div>
           </div>
-          <div class="col-md-4">
-            <img
-              src="./images/facebook.png"
-              alt="Companies"
-              class="img-fluid"
-            />
+        </div>
+      </header>
+
+      <!-- doctors -->
+      <div class="Staff">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="title text-align-center">
+                <h2>Meet Our Staff..</h2>
+              </div>
+            </div>
           </div>
-          <div class="col-md-4">
-            <img src="./images/twitter.png" alt="Companies" class="img-fluid" />
+          <div class="row flexrow">
+            <div class="col-md-6">
+              <div id="efect" class="text text_align_center">
+                <i
+                  ><img
+                    src="./images/Doctor-img-logo.png"
+                    width="100px"
+                    height="100px"
+                    alt="#"
+                /></i>
+                <h3>Dr. Shqipe Mustafa</h3>
+                <p>
+                  exercitationem quod aliquid, velit officia exercitationem quod
+                  aliquid, velit officia exercitationem quod aliquid, velit
+                  officia exercitationem quod aliquid, velit officia
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div id="efect" class="text text-align-center">
+                <i
+                  ><img
+                    src="images/Doctor-img-logo.png"
+                    width="100px"
+                    height="100px"
+                    alt="#"
+                /></i>
+                <h3>Dr. Mentor Havolli</h3>
+                <p>
+                  exercitationem quod aliquid, velit officia exercitationem quod
+                  aliquid, velit officia exercitationem quod aliquid, velit
+                  officia exercitationem quod aliquid, velit officia
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container video">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h2>Our Video About Our Clinic</h2>
+            <iframe
+              width="1120"
+              height="515"
+              src="https://www.youtube.com/embed/eOaW6_EFwlg"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </div>
     </section>
     <!-- Servcies Section -->
-    <section class="feature gradient">
+    <section id="section1" class="feature gradient">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
@@ -129,10 +207,10 @@
               nostrum placeat nesciunt. Accusamus vitae
             </p>
             <ul>
-              <a href="#"><li>Our Servcies</li></a>
-              <a href="#"><li>Our Servcies</li></a>
-              <a href="#"><li>Our Servcies</li></a>
-              <a href="#"><li>Our Servcies</li></a>
+              <a href="#"><li>Zbardhimi i Dhembeve</li></a>
+              <a href="#"><li>Ngjitja e Protezave</li></a>
+              <a href="#"><li>Ndreqja e kurores se Dhembit</li></a>
+              <a href="#"><li>Heqja e Dhembeve te Demtuar</li></a>
             </ul>
             <div class="row">
               <div class="col-md-6">
@@ -232,7 +310,7 @@
       </div>
     </section>
     <!-- Images of our work -->
-    <section class="gallery">
+    <section id="section2" class="gallery">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
         <path
           fill="#fff"
@@ -263,9 +341,11 @@
         </div>
         <div class="row mt-5 justify-content-end">
           <div class="col-md-2">
-            <button type="button" class="btn btn-outline-secondary">
-              More Pictures
-            </button>
+            <a href="#">
+              <button type="button" class="btn btn-outline-secondary">
+                More Pictures
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -278,7 +358,7 @@
       </svg>
     </section>
     <!-- Contact Section -->
-    <section class="contact">
+    <section id="section3" class="contact">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-5">
@@ -312,6 +392,7 @@
         </div>
       </div>
     </section>
+
     <!-- Footer Section -->
     <footer class="gradient">
       <div class="container-fluid text-center">
